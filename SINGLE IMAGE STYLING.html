@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Image Styling</title>
+    <style>
+        /* Styles for a specific image and its container */
+        .styled-image-container {
+            border: 1px solid green;
+            padding: 10px;
+            margin: 20px 0;
+            overflow: hidden; /* Ensures float doesn't disrupt layout */
+        }
+
+        .styled-image {
+            float: left;
+            clip-path: circle(40%);
+            shape-outside: circle(45%);
+            margin-right: 15px; /* Adds spacing between the image and text */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Daily Fresh Sdn Bhd</h1>
+
+<!-- Specific image and its text -->
+<div class="styled-image-container">
+    <img src="logo daily fresh.png" alt="Styled Image" class="styled-image" width="200" height="200">
+
+  <p style="text-align: justify;">After completing my SPM, I joined Daily Fresh Sdn Bhd in Kangkar Pulai, Johor, as an employee from April to August 2021.</p>
+  <p style="text-align: justify;">This experience allowed me to adapt the life of works. This role marked my first exposure to a professional working environment which is
+  helping me transition from student life to the demands of a workplace. For example, I adapted to workplace routines, managing time effectively,
+  collaborating with team members, and meeting customer expectations.</p>
+  <p style="text-align: justify;">Additinally, F&B company also gives you entrepreneurial opportunities and creative outlet to let you to think and act in your own unique ways.</P>
+  
+</div>
+
+<!-- Other images on the same page -->
+<div>
+<center>
+    <img src="daily fresh.jpg" alt="Other Image 1" width="200" height="200">
+    <img src="daily fresh 1.jpg" alt="Other Image 2" width="200" height="200">
+</center>
+</div>
+
+</body>
+</html>
