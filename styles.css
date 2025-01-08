@@ -23,6 +23,7 @@ body {
 header {
     background-color: pink;
     color: black;
+	margin: 0;
     padding: 15px;
     text-align: center;
 }
@@ -41,6 +42,19 @@ section {
     width: 90%;
     max-width: 1200px;
     text-align: center;
+}
+
+/* Image Section Below Menu */
+.image-header {
+    width: 100%; /* Ensures the image spans the full width */
+    height: 100px; /* Matches the header height */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+}
+
+.image-header img {
+    width: 100%; /* Makes the image stretch to fill the width */
+    height: 100%; /* Makes the image stretch to fill the height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
 }
 
 img {
@@ -97,7 +111,7 @@ tr:nth-child(even) {
         margin-top: 30px;
         gap: 20px; /* Adds a 20px gap between the images */
     
-        }
+}
 
 
 /* Box Styling */
@@ -107,7 +121,7 @@ tr:nth-child(even) {
     border-radius: 20px; /* Rounded corners */
     display: flex;
     gap: 20px;
-    width: 600px;
+    width: 800px;
     height: 170px;
     justify-content: space-around;
     align-items: center;
@@ -150,6 +164,11 @@ tr:nth-child(even) {
     margin: 0 10px; /* Space between items */
 }
 
+.item span {
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
 .icon {
     width: 40px;
     height: 40px;
@@ -168,7 +187,7 @@ tr:nth-child(even) {
 .icon img {
 	width: 40px;
     height: 35px;
-	gap: 40px;
+	gap: 20px;
     border-radius: 8px; /* Rounded corners */
 	background-color: white; /* White background for better contrast */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Shadow for depth */
@@ -201,4 +220,5 @@ header, footer {
 
 </style>
 </body>
+</html>
 </html>
